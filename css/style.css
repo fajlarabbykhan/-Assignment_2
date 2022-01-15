@@ -57,6 +57,7 @@ body{
     .sp{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        margin-bottom: 20px;
     }
     .sp-left{
         display: flex;
@@ -96,7 +97,6 @@ body{
         font-size: 15px;
         background-color: #E02C6D;
         border-radius: 26px;
-        margin-bottom: 20px;
         padding: 10px;
         cursor: pointer;
     }
@@ -110,9 +110,7 @@ body{
         border: 1px solid #F1E4FF;
         border-radius: 50%;
     }
-    .line{
-      height: 30px;
-    }
+    
     .logos{
         display: grid;
         grid-template-columns: repeat(7,1fr);
